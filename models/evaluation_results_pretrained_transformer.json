@@ -1,0 +1,42 @@
+[
+  {
+    "model": "pretrained_twitter_roberta",
+    "accuracy": 0.764,
+    "macro_precision": 0.7561,
+    "macro_recall": 0.7731,
+    "macro_f1": 0.7632,
+    "per_class_report": {
+      "Negative": {
+        "precision": 0.6977455101260985,
+        "recall": 0.8026373626373626,
+        "f1-score": 0.7465249386753884,
+        "support": 2275.0
+      },
+      "Neutral": {
+        "precision": 0.7632227488151658,
+        "recall": 0.7330662782228696,
+        "f1-score": 0.7478406241292839,
+        "support": 5492.0
+      },
+      "Positive": {
+        "precision": 0.8074473297403234,
+        "recall": 0.7834561445210364,
+        "f1-score": 0.7952708408734467,
+        "support": 4207.0
+      },
+      "accuracy": 0.7639886420577919,
+      "macro avg": {
+        "precision": 0.7561385295605292,
+        "recall": 0.7730532617937561,
+        "f1-score": 0.7632121345593731,
+        "support": 11974.0
+      },
+      "weighted avg": {
+        "precision": 0.7663204683687409,
+        "recall": 0.7639886420577919,
+        "f1-score": 0.7642550000633979,
+        "support": 11974.0
+      }
+    }
+  }
+]
